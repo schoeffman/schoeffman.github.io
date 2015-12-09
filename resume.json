@@ -1,15 +1,15 @@
 {
   "basics": {
-    "name": "Richard Hendriks",
-    "label": "Programmer",
-    "picture": "",
-    "email": "richard.hendriks@gmail.com",
-    "phone": "(912) 555-4321",
-    "website": "http://richardhendricks.com",
-    "summary": "Richard hails from Tulsa. He has earned degrees from the University of Oklahoma and Stanford. (Go Sooners and Cardinals!) Before starting Pied Piper, he worked for Hooli as a part time software developer. While his work focuses on applied information theory, mostly optimizing lossless compression schema of both the length-limited and adaptive variants, his non-work interests range widely, everything from quantum computing to chaos theory. He could tell you about it, but THAT would NOT be a “length-limited” conversation!",
+    "name": "Peter Schoeffman",
+    "label": "CSA",
+    "picture": "http://schoeffman.com/images/me.jpg",
+    "email": "schoeffman@gmail.com",
+    "phone": "",
+    "website": "http://schoeffman.com",
+    "summary": "I solve business problems using technology. I serve as an agent of change where improvement is required. I design and implement systems to make change, so I can train and motivate others.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
+      "address": "",
+      "postalCode": "",
       "city": "San Francisco",
       "countryCode": "US",
       "region": "California"
@@ -17,92 +17,146 @@
     "profiles": [
       {
         "network": "Twitter",
-        "username": "neutralthoughts",
-        "url": ""
+        "username": "@schoeffman",
+        "url": "https://twitter.com/schoeffman"
       },
       {
-        "network": "SoundCloud",
-        "username": "dandymusicnl",
-        "url": "https://soundcloud.com/dandymusicnl"
+        "network": "Link",
+        "username": "schoeffman",
+        "url": "https://www.linkedin.com/in/schoeffman"
+      },
+      {
+        "network": "Stack Overflow",
+        "username": "schoeffman",
+        "url": "http://stackoverflow.com/users/2120237/schoeffman"
       }
     ]
   },
   "work": [
     {
-      "company": "Pied Piper",
-      "position": "CEO/President",
-      "website": "http://piedpiper.com",
-      "startDate": "2013-12-01",
-      "endDate": "2014-12-01",
-      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
+      "company": "Springshot",
+      "position": "CSA",
+      "website": "http://springshot.com/",
+      "startDate": "2015-06-12",
+      "endDate": "",
+      "summary": "Springshot is an workforce management solution providing next generation cloud technology to those in need. Built on Ruby on Rails, and Angularjs I faced many challenges as a CSA. Here is where I learned to see the big picture, make many pieces of a large system work together, and provide great solutions.",
       "highlights": [
-        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
-        "Successfully won Techcrunch Disrupt",
-        "Optimized an algorithm that holds the current world record for Weisman Scores"
+        "Design new front-end architecture for our next generation task management system.",
+        "Research and evaluate new front-end tools and emerging technologies to decide if using them can improve the organization's technology platforms.",
+        "Conduct testing to ensure that the systems work as expected. "
+      ]
+    },
+    {
+      "company": "The Toronto Star",
+      "position": "Full Stack Developer",
+      "website": "http://www.thestar.com/",
+      "startDate": "2012-11-01",
+      "endDate": "2015-06-11",
+      "summary": "Built from ontop of a Adobe AudienceManager backend, The Star has both an AEM frontend, and a mobile Angular app. A model for other news agency The Star strives to remain on top of its technological game.",
+      "highlights": [
+        "Built from ontop of a Adobe AudienceManager backend, The Star has both an AEM frontend, and a mobile Angular app. A model for other news agency The Star strives to remain on top of its technological game.",
+        "Manage The Grid Toronto Network and create digital strategy.",
+        "Setup Servers and infrastructure using Amazon AWS for TorStar.",
+        "Work in Agile cycle to estimate on on going work and constantly improve all elements of the process."
+      ]
+    },
+    {
+      "company": "Student Life Network",
+      "position": "Full Stack Developer",
+      "website": "https://studentlifenetwork.com",
+      "startDate": "2010-06-01",
+      "endDate": "2012-10-31",
+      "summary": "During my time at SLN the company focused on providing universities private social networks tailored to their needs. We created all sorts of innovative and interesting tools to help tight nite school based communities grow.    ",
+      "highlights": [
+        "- Project lead for public facing website Network",
+        "- Build and maintain features for core technology",
+        "- Introduce and run Web Games project"
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "CoderDojo",
-      "position": "Teacher",
-      "website": "http://coderdojo.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Global movement of free coding clubs for young people.",
+      "organization": "Humber College Club",
+      "position": "President of Game Programming",
+      "website": "http://www.humber.ca/",
+      "startDate": "2008-09-21",
+      "endDate": "2010-06-30",
+      "summary": "To provide the student body a meeting ground to explore game development. To work together on group projects for fun, to host code challenges, and hack away.",
       "highlights": [
-        "Awarded 'Teacher of the Month'"
+        "2009 Humber Programming Classic",
+        "2010 Humber Programming Classic"
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Oklahoma",
-      "area": "Information Technology",
-      "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "gpa": "4.0",
-      "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
-      ]
-    }
-  ],
-  "awards": [
+      "institution": "University of Stanford",
+      "area": "Stanford Strategic Decision and Risk Management",
+      "studyType": "Certificate ",
+      "startDate": "2015",
+      "endDate": "2016",
+      "gpa": "N/A",
+      "courses": []
+    },
     {
-      "title": "Digital Compression Pioneer Award",
-      "date": "2014-11-01",
-      "awarder": "Techcrunch",
-      "summary": "There is no spoon."
-    }
-  ],
-  "publications": [
+      "institution": "Humber College",
+      "area": "Game Programming",
+      "studyType": "Advanced Diploma ",
+      "startDate": "2007",
+      "endDate": "2010",
+      "gpa": "Honours",
+      "courses": []
+    },
     {
-      "name": "Video compression for 3d media",
-      "publisher": "Hooli",
-      "releaseDate": "2014-10-01",
-      "website": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
-      "summary": "Innovative middle-out compression algorithm that changes the way we store data."
+      "institution": "Sheridan College",
+      "area": "Media Fundamentals",
+      "studyType": "Certificate ",
+      "startDate": "2006",
+      "endDate": "2007",
+      "gpa": "N/A",
+      "courses": []
     }
   ],
+  "awards": [],
+  "publications": [],
   "skills": [
     {
-      "name": "Web Development",
-      "level": "Master",
+      "name": "Languages",
+      "level": "Mixed",
       "keywords": [
         "HTML",
         "CSS",
-        "Javascript"
+        "Javascript",
+        "Java",
+        "PHP",
+        "Ruby",
+        "C++",
+        "C#"
       ]
     },
     {
-      "name": "Compression",
-      "level": "Master",
+      "name": "Frameworks",
+      "level": "Mixed",
       "keywords": [
-        "Mpeg",
-        "MP4",
-        "GIF"
+        "Rails",
+        "AEM",
+        "Angular",
+        "React",
+        "MySQL",
+        "PostgreSQL",
+        "Node",
+        "Cordova"
+      ]
+    },
+    {
+      "name": "Misc",
+      "level": "Mixed",
+      "keywords": [
+        "Bash",
+        "Vagrant",
+        "Varnish",
+        "Git",
+        "AWS"
       ]
     }
   ],
@@ -112,19 +166,19 @@
       "fluency": "Native speaker"
     }
   ],
-  "interests": [
-    {
-      "name": "Wildlife",
-      "keywords": [
-        "Ferrets",
-        "Unicorns"
-      ]
-    }
-  ],
+  "interests": [],
   "references": [
     {
-      "name": "Erlich Bachman",
-      "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+      "name": "Stephen Evans",
+      "reference": "Pete is a talented young developer who has demonstrated huge potential and increasing leadership over the two years I worked with him. He has that rare combination of technical ability and people skills that will serve him well for years to come. His recruitment to the Toronto Star was a real \"find\" from a hiring perspective."
+    },
+    {
+      "name": " Matthew Hogg",
+      "reference": "Peter is a smart and inquisitive developer who is always ready to learn new tricks and capture them immediately. He's not afraid of accepting new roles and responsibilities and he's unflappable – he has always remained calm in any situation and can perform under pressure. He approaches every day and task with a healthy sense of humour and relaxed composure that benefits the entire team.   I've had the pleasure of working with Peter on 2 occasions now and wouldn't hesitate to do so again"
+    },
+    {
+      "name": "Zenon Harley",
+      "reference": "Peter's attitude towards coding is relentless and fearless, with an appetite for acquiring new skills and discovering better ways of getting it done. Having worked with Peter in many time-sensitive crunch situations, he never taps out early or makes excuses, but rather takes responsibility above and beyond expectations. In addition to a strong coding ability and laudable work ethic, his magnetic personality is an asset to any team and a catalyst for creativity and open discussion. I recommend Peter without reservation."
     }
   ]
 }

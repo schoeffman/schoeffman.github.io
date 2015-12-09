@@ -39,7 +39,7 @@
       "website": "http://springshot.com/",
       "startDate": "2015-06-12",
       "endDate": "",
-      "summary": "Springshot is an workforce management solution providing next generation cloud technology to those in need. Built on Ruby on Rails, and Angularjs I faced many challenges as a CSA. Here is where I learned to see the big picture, make many pieces of a large system work together, and provide great solutions.",
+      "summary": "Springshot is a workforce management solution providing next generation cloud technology to those in need. Built on Ruby on Rails, and Angularjs I faced, many challenges as a CSA. Here is where I learned to see the big picture, make many pieces of a large system work together, and provide great solutions.",
       "highlights": [
         "Design new front-end architecture for our next generation task management system.",
         "Research and evaluate new front-end tools and emerging technologies to decide if using them can improve the organization's technology platforms.",
@@ -52,9 +52,9 @@
       "website": "http://www.thestar.com/",
       "startDate": "2012-11-01",
       "endDate": "2015-06-11",
-      "summary": "Built from ontop of a Adobe AudienceManager backend, The Star has both an AEM frontend, and a mobile Angular app. A model for other news agency The Star strives to remain on top of its technological game.",
+      "summary": "Built on top of a Adobe AudienceManager backend, The Star has both an AEM frontend, and a mobile Angular app. A model for other news papers The Star strives to remain on top of its technological game.",
       "highlights": [
-        "Built from ontop of a Adobe AudienceManager backend, The Star has both an AEM frontend, and a mobile Angular app. A model for other news agency The Star strives to remain on top of its technological game.",
+        "Built from ontop of a Adobe AudienceManager backend, The Star has both an AEM frontend, and a mobile Angular app. A model for other news papers The Star strives to remain on top of its technological game.",
         "Manage The Grid Toronto Network and create digital strategy.",
         "Setup Servers and infrastructure using Amazon AWS for TorStar.",
         "Work in Agile cycle to estimate on on going work and constantly improve all elements of the process."

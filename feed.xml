@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Peter Schoeffman</title><description>Personal website</description><link>http://schoeffman.com/</link><atom:link href="http://schoeffman.com/feed.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 24 Nov 2015 08:59:09 -0800</pubDate><lastBuildDate>Tue, 24 Nov 2015 08:59:09 -0800</lastBuildDate><generator>Jekyll v2.5.3</generator><item><title>Unnecessary background images</title><description>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://dl.dropboxusercontent.com/u/159328383/jarjarbinks.css&quot; type=&quot;text/css&quot; /&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Peter Schoeffman</title><description>Personal website</description><link>http://schoeffman.com/</link><atom:link href="http://schoeffman.com/feed.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 03 Jul 2018 23:13:38 -0700</pubDate><lastBuildDate>Tue, 03 Jul 2018 23:13:38 -0700</lastBuildDate><generator>Jekyll v3.8.3</generator><item><title>Unnecessary background images</title><description>&lt;link rel=&quot;stylesheet&quot; href=&quot;https://dl.dropboxusercontent.com/u/159328383/jarjarbinks.css&quot; type=&quot;text/css&quot; /&gt;
 
 &lt;p&gt;I still do not understand why would somebody use background &lt;strong&gt;image&lt;/strong&gt; containing
 just a plain color to appear &lt;em&gt;on hover&lt;/em&gt;(not only) instead of just background color unless the author
 wants to enrich an element with some witty &amp;amp; fancy background.&lt;/p&gt;
 
 &lt;p&gt;I’ve seen this on numerous websites and one can not very easily detect it by
-noticing that &lt;code&gt;background-image&lt;/code&gt; displays a little bit earlier than &lt;code&gt;background-color&lt;/code&gt;.
+noticing that &lt;code class=&quot;highlighter-rouge&quot;&gt;background-image&lt;/code&gt; displays a little bit earlier than &lt;code class=&quot;highlighter-rouge&quot;&gt;background-color&lt;/code&gt;.
 Somehow you can feel that subtle blink of an image as it appears.&lt;/p&gt;
 
 &lt;p&gt;Look :&lt;/p&gt;
@@ -35,30 +35,30 @@ Somehow you can feel that subtle blink of an image as it appears.&lt;/p&gt;
 &lt;p&gt;See ?&lt;/p&gt;
 
 &lt;p&gt;I’m still not quite sure whether I am missing something out and there’s some rather
-important aspect of &lt;code&gt;background-image&lt;/code&gt; I’m not aware of. Otherwise, it’s just another
+important aspect of &lt;code class=&quot;highlighter-rouge&quot;&gt;background-image&lt;/code&gt; I’m not aware of. Otherwise, it’s just another
 asset to care about.&lt;/p&gt;
 </description><pubDate>Tue, 29 Apr 2014 22:56:00 -0700</pubDate><link>http://schoeffman.com/unnecessary-background-images</link><guid isPermaLink="true">http://schoeffman.com/unnecessary-background-images</guid><category>css</category></item><item><title>Improving coding skills with exercism.io</title><description>&lt;p&gt;There are many ways how one can sharpen his coding &amp;amp; programming skills. However, peer review
 or just simple “putting it out there” is a very important aspect of a constant achievement of 
 better results.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;http://exercism.io&quot;&gt;exercism.io&lt;/a&gt; is a crowd-sourced mentorship providing algorithmical exercises in&lt;/p&gt;
-&lt;mark&gt;Clojure, Coffeescript, Elixir, Go, Haskell, Javascript, Objective-C, Ocaml, Perl5, Python, Ruby and Scala.&lt;/mark&gt;
+&lt;p&gt;&lt;a href=&quot;http://exercism.io&quot;&gt;exercism.io&lt;/a&gt; is a crowd-sourced mentorship providing algorithmical exercises in
+&lt;mark&gt;Clojure, Coffeescript, Elixir, Go, Haskell, Javascript, Objective-C, Ocaml, Perl5, Python, Ruby and Scala.&lt;/mark&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;installation&quot;&gt;Installation&lt;/h2&gt;
 
 &lt;p&gt;The process is very simple and straightforward. After signing in with your Github account and setting up the 
 &lt;a href=&quot;http://cli.exercism.io&quot;&gt;CLI&lt;/a&gt; you are almost ready to go.&lt;/p&gt;
 
-&lt;p&gt;Note that exercism.io binary file will be placed in &lt;code&gt;/usr/local/bin&lt;/code&gt; or &lt;code&gt;$HOME/bin&lt;/code&gt; directory so make sure you got ‘em
-in your &lt;code&gt;PATH&lt;/code&gt;. If not, add similar into your &lt;code&gt;~/.bashrc&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;Note that exercism.io binary file will be placed in &lt;code class=&quot;highlighter-rouge&quot;&gt;/usr/local/bin&lt;/code&gt; or &lt;code class=&quot;highlighter-rouge&quot;&gt;$HOME/bin&lt;/code&gt; directory so make sure you got ‘em
+in your &lt;code class=&quot;highlighter-rouge&quot;&gt;PATH&lt;/code&gt;. If not, add similar into your &lt;code class=&quot;highlighter-rouge&quot;&gt;~/.bashrc&lt;/code&gt;&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;...
-&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;/home/you/bin/:$PATH&amp;quot;&lt;/span&gt;
-...&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;...
+&lt;span class=&quot;nb&quot;&gt;export &lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;PATH&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;/home/you/bin/:&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$PATH&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+...&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;When the command line interface is ready, log in to your exercism.io account :&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;exercism login&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;exercism login&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;It’ll ask your for your GitHub username and exercism.io API key which can
 be found on your &lt;a href=&quot;http://exercism.io/account&quot;&gt;account’s&lt;/a&gt; page.&lt;/p&gt;
@@ -66,13 +66,13 @@ be found on your &lt;a href=&quot;http://exercism.io/account&quot;&gt;account’
 &lt;p&gt;Proceed by selecting exercism exercises path, e.g where given
 exercises would be stored.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;What is your exercism exercises project path?
-Press Enter to &lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; the default &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;~/tmp&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;:
-&lt;span class=&quot;c&quot;&gt;# actual path for instance /home/user/apps/exercism&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;What is your exercism exercises project path?
+Press Enter to &lt;span class=&quot;k&quot;&gt;select &lt;/span&gt;the default &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;~/tmp&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;:
+&lt;span class=&quot;c&quot;&gt;# actual path for instance /home/user/apps/exercism&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;And finally fetch the exercises :&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;exercism fetch&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;exercism fetch&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h2 id=&quot;exercise&quot;&gt;Exercise&lt;/h2&gt;
 
@@ -82,9 +82,9 @@ exercises has its own directory.&lt;/p&gt;
 
 &lt;p&gt;The initial state of the task’s directory consists of following files :&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;peter@peter:~/apps/exercism/ruby/bob&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;ls
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;gp&quot;&gt;peter@peter:~/apps/exercism/ruby/bob$ &lt;/span&gt;ls
 
-bob_test.rb  GETTING_STARTED.md  README.md&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+bob_test.rb  GETTING_STARTED.md  README.md&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;strong&gt;README&lt;/strong&gt; describes the given problem, gives instuctions how to approach
 that magical path leading to the solution and usually provides some background information about
@@ -101,17 +101,17 @@ actually works as expected.&lt;/p&gt;
 &lt;p&gt;All the code you produce should be &lt;em&gt;ideally&lt;/em&gt; (it depends on each of the very language) written in the separate file or along with the test
 file altogether. In Ruby, for instance, you create a file according to the test suite given e.g.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;minitest/autorun&amp;#39;&lt;/span&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;nb&quot;&gt;require&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'minitest/autorun'&lt;/span&gt;
 
 &lt;span class=&quot;k&quot;&gt;begin&lt;/span&gt;
-  &lt;span class=&quot;n&quot;&gt;require_relative&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&amp;#39;bob&amp;#39;&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;require_relative&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'bob'&lt;/span&gt;
 &lt;span class=&quot;k&quot;&gt;rescue&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;LoadError&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;e&lt;/span&gt;
-&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Meaning file &lt;code&gt;bob.rb&lt;/code&gt; containing the code ought to be placed in the root of exercise directory.&lt;/p&gt;
+&lt;p&gt;Meaning file &lt;code class=&quot;highlighter-rouge&quot;&gt;bob.rb&lt;/code&gt; containing the code ought to be placed in the root of exercise directory.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;peter@peter:~/apps/exercism/ruby/bob&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;ls
-bob.rb  bob_test.rb  GETTING_STARTED.md  README.md&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;gp&quot;&gt;peter@peter:~/apps/exercism/ruby/bob$ &lt;/span&gt;ls
+bob.rb  bob_test.rb  GETTING_STARTED.md  README.md&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Finally, exercise.&lt;/p&gt;
 
@@ -124,12 +124,12 @@ fishy about it but you can’t seem to find the smoother way to solve the proble
 
 &lt;p&gt;To do so, just :&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;exercism submit path/to/exercise.ext&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;exercism submit path/to/exercise.ext&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;And you receive a link to feedback of the submission&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;exercism submit path/to/exercise.ext
-For the feedback on your submission visit http://exercism.io/submissions/d3129jar13jar50fbinksc2a&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;exercism submit path/to/exercise.ext
+For the feedback on your submission visit http://exercism.io/submissions/d3129jar13jar50fbinksc2a&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;h3 id=&quot;nitpicking&quot;&gt;Nitpicking&lt;/h3&gt;
 
@@ -151,7 +151,7 @@ you can &lt;em&gt;update&lt;/em&gt; your code (preferably for the better) as muc
 
 &lt;p&gt;It is as simple as initial submitting of an exercise :&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;exercism submit path/to/exercise.ext&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;exercism submit path/to/exercise.ext&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;Each of the iterations is viewed independently meaning it has its own page and feedbacks.&lt;/p&gt;
 
@@ -160,7 +160,7 @@ you can &lt;em&gt;update&lt;/em&gt; your code (preferably for the better) as muc
 &lt;p&gt;If you are done and you don’t need any more feedback on your submission click &lt;em&gt;OK, I’m done. I don’t need any more feedback on this.&lt;/em&gt; on the submission’s page and
 fetch the next exercise by :&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nv&quot;&gt;$ &lt;/span&gt;exercism fetch&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;exercism fetch &lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;hr /&gt;
 
